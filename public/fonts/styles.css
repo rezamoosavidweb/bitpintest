@@ -1,0 +1,82 @@
+@font-face {
+  font-family: iranSans;
+  src: url('IRANSansWeb(FaNum).eot');
+  src: url('IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+    url('IRANSansWeb(FaNum).woff2') format('woff2'),
+    url('IRANSansWeb(FaNum).woff') format('woff'),
+    url('IRANSansWeb(FaNum).ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html,
+#root {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  z-index: 100;
+  width: 6px !important;
+  height: 6px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+input,
+textarea,
+button,
+select,
+a,
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Used to define container behavior: width, position: fixed etc... */
+.Toastify__toast-container {
+  /* width: 300px !important; */
+  /* text-align: center; */
+}
+
+/* Used to define the position of the ToastContainer */
+.Toastify__toast-container--top-left {}
+
+.Toastify__toast-container--top-center {
+  font-family: "iranSans";
+
+}
+
+.Toastify__toast-container--top-right {}
+
+.Toastify__toast-container--bottom-left {}
+
+.Toastify__toast-container--bottom-center {}
+
+.Toastify__toast-container--bottom-right {}
+
+/* Classes for the displayed toast */
+.Toastify__toast {
+  font-family: "iranSans" !important;
+}
+
+
+
+.Toastify__toast-body {
+  /* color: #ffffff !important; */
+  /* font-weight: 700 !important; */
+
+  /* margin: auto !important; */
+}
+
+
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
